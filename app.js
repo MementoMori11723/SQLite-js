@@ -23,3 +23,9 @@ db.all(query, [], (err, rows) => {
   if (err) return console.error(err.message);
   rows.forEach((row) => console.log(row));
 });
+
+// Closing Connection
+db.close((err) => {
+  if (err) return console.log(err.message);
+  else console.log("Database closed successfuly");
+});
