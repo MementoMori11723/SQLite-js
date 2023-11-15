@@ -19,7 +19,7 @@ This project demonstrates a basic implementation of SQLite3 with JavaScript and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/MementoMori11723/SQLite-js.git
    cd your-repository
    bun install
    ```
